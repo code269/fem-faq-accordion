@@ -93,6 +93,11 @@ h2 {
   padding-block: var(--space-reg);
 }
 
+.faq-btn .icon:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
 .icon {
   inline-size: 2.5rem;
 }
@@ -105,11 +110,6 @@ h2 {
   margin-block-start: var(--space-reg);
   color: var(--clr-purple-600);
   line-height: 1.5;
-}
-
-button .icon:hover {
-  opacity: 70%;
-  cursor: pointer;
 }
 
 .hidden {

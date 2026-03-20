@@ -47,10 +47,22 @@ body {
 
   font-family: 'Work Sans', sans-serif;
   background-color: var(--clr-purple-100);
+  background-image: url(./assets/images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  /* background-size: auto 30%; */
+  background-size: 100% auto;
+  background-position: top center;
+
+  /* Apply clamp instead? */
+
+  @media (min-width: 600px) {
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-size: auto 40%;
+  }
 }
 
 main {
-  margin-inline: var(--space-lg);
+  margin: var(--space-lg);
   padding: 0.5em var(--space-lg);
   max-inline-size: 38em;
   background-color: var(--clr-white);
